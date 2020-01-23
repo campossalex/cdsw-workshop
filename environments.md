@@ -1,43 +1,42 @@
-
-| Nombre       | Apellido    | IPPública      | CM                         | EFM                                | NIFI                            | NiFi Registry                             | Schema Registry            | SMM                        | Hue                        | CDSW                              |
-|--------------|-------------|----------------|----------------------------|------------------------------------|---------------------------------|-------------------------------------------|----------------------------|----------------------------|----------------------------|-----------------------------------|
-| Felipe       | Azevedo     | 18.207.182.116 | http://18.207.182.116:7180 | http://18.207.182.116:10080/efm/ui | http://18.207.182.116:8080/nifi | http://18.207.182.116:18080/nifi-registry | http://18.207.182.116:7788 | http://18.207.182.116:9991 | http://18.207.182.116:8888 | http://cdsw.18.207.182.116.nip.io |
-| Eduardo      | Hahn        | 3.224.127.59   | http://3.224.127.59:7180   | http://3.224.127.59:10080/efm/ui   | http://3.224.127.59:8080/nifi   | http://3.224.127.59:18080/nifi-registry   | http://3.224.127.59:7788   | http://3.224.127.59:9991   | http://3.224.127.59:8888   | http://cdsw.3.224.127.59.nip.io   |
-| Fabiano      | Bartell     | 3.227.245.188  | http://3.227.245.188:7180  | http://3.227.245.188:10080/efm/ui  | http://3.227.245.188:8080/nifi  | http://3.227.245.188:18080/nifi-registry  | http://3.227.245.188:7788  | http://3.227.245.188:9991  | http://3.227.245.188:8888  | http://cdsw.3.227.245.188.nip.io  |
-| Douglas      | Carvalho    | 3.230.115.165  | http://3.230.115.165:7180  | http://3.230.115.165:10080/efm/ui  | http://3.230.115.165:8080/nifi  | http://3.230.115.165:18080/nifi-registry  | http://3.230.115.165:7788  | http://3.230.115.165:9991  | http://3.230.115.165:8888  | http://cdsw.3.230.115.165.nip.io  |
-| Eduardo Luiz | Almeida     | 3.231.146.12   | http://3.231.146.12:7180   | http://3.231.146.12:10080/efm/ui   | http://3.231.146.12:8080/nifi   | http://3.231.146.12:18080/nifi-registry   | http://3.231.146.12:7788   | http://3.231.146.12:9991   | http://3.231.146.12:8888   | http://cdsw.3.231.146.12.nip.io   |
-| Lucas        | Fernandes   | 34.205.93.41   | http://34.205.93.41:7180   | http://34.205.93.41:10080/efm/ui   | http://34.205.93.41:8080/nifi   | http://34.205.93.41:18080/nifi-registry   | http://34.205.93.41:7788   | http://34.205.93.41:9991   | http://34.205.93.41:8888   | http://cdsw.34.205.93.41.nip.io   |
-| Vitor        | Pereira     | 34.205.155.217 | http://34.205.155.217:7180 | http://34.205.155.217:10080/efm/ui | http://34.205.155.217:8080/nifi | http://34.205.155.217:18080/nifi-registry | http://34.205.155.217:7788 | http://34.205.155.217:9991 | http://34.205.155.217:8888 | http://cdsw.34.205.155.217.nip.io |
-| Paulo        | Kakumori    | 3.227.21.71    | http://3.227.21.71:7180    | http://3.227.21.71:10080/efm/ui    | http://3.227.21.71:8080/nifi    | http://3.227.21.71:18080/nifi-registry    | http://3.227.21.71:7788    | http://3.227.21.71:9991    | http://3.227.21.71:8888    | http://cdsw.3.227.21.71.nip.io    |
-| Jose Eduardo | Tecles      | 34.239.1.144   | http://34.239.1.144:7180   | http://34.239.1.144:10080/efm/ui   | http://34.239.1.144:8080/nifi   | http://34.239.1.144:18080/nifi-registry   | http://34.239.1.144:7788   | http://34.239.1.144:9991   | http://34.239.1.144:8888   | http://cdsw.34.239.1.144.nip.io   |
-| Gustavo      | Brito       | 34.200.234.13  | http://34.200.234.13:7180  | http://34.200.234.13:10080/efm/ui  | http://34.200.234.13:8080/nifi  | http://34.200.234.13:18080/nifi-registry  | http://34.200.234.13:7788  | http://34.200.234.13:9991  | http://34.200.234.13:8888  | http://cdsw.34.200.234.13.nip.io  |
-| Mauri        | Junior      | 3.222.177.126  | http://3.222.177.126:7180  | http://3.222.177.126:10080/efm/ui  | http://3.222.177.126:8080/nifi  | http://3.222.177.126:18080/nifi-registry  | http://3.222.177.126:7788  | http://3.222.177.126:9991  | http://3.222.177.126:8888  | http://cdsw.3.222.177.126.nip.io  |
-| Alexandre    | Abbamont    | 34.231.229.88  | http://34.231.229.88:7180  | http://34.231.229.88:10080/efm/ui  | http://34.231.229.88:8080/nifi  | http://34.231.229.88:18080/nifi-registry  | http://34.231.229.88:7788  | http://34.231.229.88:9991  | http://34.231.229.88:8888  | http://cdsw.34.231.229.88.nip.io  |
-| Ana          | Sanchez     | 35.170.80.115  | http://35.170.80.115:7180  | http://35.170.80.115:10080/efm/ui  | http://35.170.80.115:8080/nifi  | http://35.170.80.115:18080/nifi-registry  | http://35.170.80.115:7788  | http://35.170.80.115:9991  | http://35.170.80.115:8888  | http://cdsw.35.170.80.115.nip.io  |
-| Diogo        | Contato     | 54.236.63.52   | http://54.236.63.52:7180   | http://54.236.63.52:10080/efm/ui   | http://54.236.63.52:8080/nifi   | http://54.236.63.52:18080/nifi-registry   | http://54.236.63.52:7788   | http://54.236.63.52:9991   | http://54.236.63.52:8888   | http://cdsw.54.236.63.52.nip.io   |
-| Henrique     | Nascimento  | 3.215.179.41   | http://3.215.179.41:7180   | http://3.215.179.41:10080/efm/ui   | http://3.215.179.41:8080/nifi   | http://3.215.179.41:18080/nifi-registry   | http://3.215.179.41:7788   | http://3.215.179.41:9991   | http://3.215.179.41:8888   | http://cdsw.3.215.179.41.nip.io   |
-| Jackeline    | Lima        | 3.232.131.61   | http://3.232.131.61:7180   | http://3.232.131.61:10080/efm/ui   | http://3.232.131.61:8080/nifi   | http://3.232.131.61:18080/nifi-registry   | http://3.232.131.61:7788   | http://3.232.131.61:9991   | http://3.232.131.61:8888   | http://cdsw.3.232.131.61.nip.io   |
-| Nailson      | Santos      | 18.207.100.150 | http://18.207.100.150:7180 | http://18.207.100.150:10080/efm/ui | http://18.207.100.150:8080/nifi | http://18.207.100.150:18080/nifi-registry | http://18.207.100.150:7788 | http://18.207.100.150:9991 | http://18.207.100.150:8888 | http://cdsw.18.207.100.150.nip.io |
-| Sacha        | Sousa       | 35.173.49.3    | http://35.173.49.3:7180    | http://35.173.49.3:10080/efm/ui    | http://35.173.49.3:8080/nifi    | http://35.173.49.3:18080/nifi-registry    | http://35.173.49.3:7788    | http://35.173.49.3:9991    | http://35.173.49.3:8888    | http://cdsw.35.173.49.3.nip.io    |
-| Thiago       | Pavelisk    | 54.157.110.35  | http://54.157.110.35:7180  | http://54.157.110.35:10080/efm/ui  | http://54.157.110.35:8080/nifi  | http://54.157.110.35:18080/nifi-registry  | http://54.157.110.35:7788  | http://54.157.110.35:9991  | http://54.157.110.35:8888  | http://cdsw.54.157.110.35.nip.io  |
-| Alexandre    | Paranhos    | 18.207.179.208 | http://18.207.179.208:7180 | http://18.207.179.208:10080/efm/ui | http://18.207.179.208:8080/nifi | http://18.207.179.208:18080/nifi-registry | http://18.207.179.208:7788 | http://18.207.179.208:9991 | http://18.207.179.208:8888 | http://cdsw.18.207.179.208.nip.io |
-| Amit         | Kumar       | 100.24.119.13  | http://100.24.119.13:7180  | http://100.24.119.13:10080/efm/ui  | http://100.24.119.13:8080/nifi  | http://100.24.119.13:18080/nifi-registry  | http://100.24.119.13:7788  | http://100.24.119.13:9991  | http://100.24.119.13:8888  | http://cdsw.100.24.119.13.nip.io  |
-| Vinicius     | Pegoraro    | 18.205.6.38    | http://18.205.6.38:7180    | http://18.205.6.38:10080/efm/ui    | http://18.205.6.38:8080/nifi    | http://18.205.6.38:18080/nifi-registry    | http://18.205.6.38:7788    | http://18.205.6.38:9991    | http://18.205.6.38:8888    | http://cdsw.18.205.6.38.nip.io    |
-| Diego        | Harsteln    | 3.218.164.41   | http://3.218.164.41:7180   | http://3.218.164.41:10080/efm/ui   | http://3.218.164.41:8080/nifi   | http://3.218.164.41:18080/nifi-registry   | http://3.218.164.41:7788   | http://3.218.164.41:9991   | http://3.218.164.41:8888   | http://cdsw.3.218.164.41.nip.io   |
-| Fabio        | Coelho      | 100.27.44.38   | http://100.27.44.38:7180   | http://100.27.44.38:10080/efm/ui   | http://100.27.44.38:8080/nifi   | http://100.27.44.38:18080/nifi-registry   | http://100.27.44.38:7788   | http://100.27.44.38:9991   | http://100.27.44.38:8888   | http://cdsw.100.27.44.38.nip.io   |
-| Hugo         | Rodrigues   | 3.218.240.251  | http://3.218.240.251:7180  | http://3.218.240.251:10080/efm/ui  | http://3.218.240.251:8080/nifi  | http://3.218.240.251:18080/nifi-registry  | http://3.218.240.251:7788  | http://3.218.240.251:9991  | http://3.218.240.251:8888  | http://cdsw.3.218.240.251.nip.io  |
-| Robson       | Cavalcante  | 3.226.236.40   | http://3.226.236.40:7180   | http://3.226.236.40:10080/efm/ui   | http://3.226.236.40:8080/nifi   | http://3.226.236.40:18080/nifi-registry   | http://3.226.236.40:7788   | http://3.226.236.40:9991   | http://3.226.236.40:8888   | http://cdsw.3.226.236.40.nip.io   |
-| Robson       | Takayanagui | 3.234.182.248  | http://3.234.182.248:7180  | http://3.234.182.248:10080/efm/ui  | http://3.234.182.248:8080/nifi  | http://3.234.182.248:18080/nifi-registry  | http://3.234.182.248:7788  | http://3.234.182.248:9991  | http://3.234.182.248:8888  | http://cdsw.3.234.182.248.nip.io  |
-| Caio         | Canic       | 18.213.192.241 | http://18.213.192.241:7180 | http://18.213.192.241:10080/efm/ui | http://18.213.192.241:8080/nifi | http://18.213.192.241:18080/nifi-registry | http://18.213.192.241:7788 | http://18.213.192.241:9991 | http://18.213.192.241:8888 | http://cdsw.18.213.192.241.nip.io |
-| Daniel       | Reis        | 54.237.142.165 | http://54.237.142.165:7180 | http://54.237.142.165:10080/efm/ui | http://54.237.142.165:8080/nifi | http://54.237.142.165:18080/nifi-registry | http://54.237.142.165:7788 | http://54.237.142.165:9991 | http://54.237.142.165:8888 | http://cdsw.54.237.142.165.nip.io |
-| Ernando      | Silva       | 3.218.142.1    | http://3.218.142.1:7180    | http://3.218.142.1:10080/efm/ui    | http://3.218.142.1:8080/nifi    | http://3.218.142.1:18080/nifi-registry    | http://3.218.142.1:7788    | http://3.218.142.1:9991    | http://3.218.142.1:8888    | http://cdsw.3.218.142.1.nip.io    |
-| Matheus      | Silva       | 3.219.219.139  | http://3.219.219.139:7180  | http://3.219.219.139:10080/efm/ui  | http://3.219.219.139:8080/nifi  | http://3.219.219.139:18080/nifi-registry  | http://3.219.219.139:7788  | http://3.219.219.139:9991  | http://3.219.219.139:8888  | http://cdsw.3.219.219.139.nip.io  |
-| Rogerio      | Bernal      | 34.201.21.211  | http://34.201.21.211:7180  | http://34.201.21.211:10080/efm/ui  | http://34.201.21.211:8080/nifi  | http://34.201.21.211:18080/nifi-registry  | http://34.201.21.211:7788  | http://34.201.21.211:9991  | http://34.201.21.211:8888  | http://cdsw.34.201.21.211.nip.io  |
-| Rogerio      | Rocha       | 107.23.76.42   | http://107.23.76.42:7180   | http://107.23.76.42:10080/efm/ui   | http://107.23.76.42:8080/nifi   | http://107.23.76.42:18080/nifi-registry   | http://107.23.76.42:7788   | http://107.23.76.42:9991   | http://107.23.76.42:8888   | http://cdsw.107.23.76.42.nip.io   |
-| Caio         |             | 75.101.208.250 | http://75.101.208.250:7180 | http://75.101.208.250:10080/efm/ui | http://75.101.208.250:8080/nifi | http://75.101.208.250:18080/nifi-registry | http://75.101.208.250:7788 | http://75.101.208.250:9991 | http://75.101.208.250:8888 | http://cdsw.75.101.208.250.nip.io |
-| Gerdan       | Santos      | 3.219.219.184  | http://3.219.219.184:7180  | http://3.219.219.184:10080/efm/ui  | http://3.219.219.184:8080/nifi  | http://3.219.219.184:18080/nifi-registry  | http://3.219.219.184:7788  | http://3.219.219.184:9991  | http://3.219.219.184:8888  | http://cdsw.3.219.219.184.nip.io  |
-| Jefferson    | Almeida     | 3.231.21.25    | http://3.231.21.25:7180    | http://3.231.21.25:10080/efm/ui    | http://3.231.21.25:8080/nifi    | http://3.231.21.25:18080/nifi-registry    | http://3.231.21.25:7788    | http://3.231.21.25:9991    | http://3.231.21.25:8888    | http://cdsw.3.231.21.25.nip.io    |
-| Antonio      | Bonacin     | 3.91.174.132   | http://3.91.174.132:7180   | http://3.91.174.132:10080/efm/ui   | http://3.91.174.132:8080/nifi   | http://3.91.174.132:18080/nifi-registry   | http://3.91.174.132:7788   | http://3.91.174.132:9991   | http://3.91.174.132:8888   | http://cdsw.3.91.174.132.nip.io   |
-| Felipe       | Tomazini    | 3.219.35.82    | http://3.219.35.82:7180    | http://3.219.35.82:10080/efm/ui    | http://3.219.35.82:8080/nifi    | http://3.219.35.82:18080/nifi-registry    | http://3.219.35.82:7788    | http://3.219.35.82:9991    | http://3.219.35.82:8888    | http://cdsw.3.219.35.82.nip.io    |
-| Lucas        | Araujo      | 3.230.1.17     | http://3.230.1.17:7180     | http://3.230.1.17:10080/efm/ui     | http://3.230.1.17:8080/nifi     | http://3.230.1.17:18080/nifi-registry     | http://3.230.1.17:7788     | http://3.230.1.17:9991     | http://3.230.1.17:8888     | http://cdsw.3.230.1.17.nip.io     |
-| Livre        | Livre       | 34.200.240.185 | http://34.200.240.185:7180 | http://34.200.240.185:10080/efm/ui | http://34.200.240.185:8080/nifi | http://34.200.240.185:18080/nifi-registry | http://34.200.240.185:7788 | http://34.200.240.185:9991 | http://34.200.240.185:8888 | http://cdsw.34.200.240.185.nip.io |
+| Nombre       | Apellido    | CDSW                              |
+|--------------|-------------|-----------------------------------|
+| Felipe       | Azevedo     | http://cdsw.18.207.182.116.nip.io |
+| Eduardo      | Hahn        | http://cdsw.3.224.127.59.nip.io   |
+| Fabiano      | Bartell     | http://cdsw.3.227.245.188.nip.io  |
+| Douglas      | Carvalho    | http://cdsw.3.230.115.165.nip.io  |
+| Eduardo Luiz | Almeida     | http://cdsw.3.231.146.12.nip.io   |
+| Lucas        | Fernandes   | http://cdsw.34.205.93.41.nip.io   |
+| Vitor        | Pereira     | http://cdsw.34.205.155.217.nip.io |
+| Paulo        | Kakumori    | http://cdsw.3.227.21.71.nip.io    |
+| Jose Eduardo | Tecles      | http://cdsw.34.239.1.144.nip.io   |
+| Gustavo      | Brito       | http://cdsw.34.200.234.13.nip.io  |
+| Mauri        | Junior      | http://cdsw.3.222.177.126.nip.io  |
+| Alexandre    | Abbamont    | http://cdsw.34.231.229.88.nip.io  |
+| Ana          | Sanchez     | http://cdsw.35.170.80.115.nip.io  |
+| Diogo        | Contato     | http://cdsw.54.236.63.52.nip.io   |
+| Henrique     | Nascimento  | http://cdsw.3.215.179.41.nip.io   |
+| Jackeline    | Lima        | http://cdsw.3.232.131.61.nip.io   |
+| Nailson      | Santos      | http://cdsw.18.207.100.150.nip.io |
+| Sacha        | Sousa       | http://cdsw.35.173.49.3.nip.io    |
+| Thiago       | Pavelisk    | http://cdsw.54.157.110.35.nip.io  |
+| Alexandre    | Paranhos    | http://cdsw.18.207.179.208.nip.io |
+| Amit         | Kumar       | http://cdsw.100.24.119.13.nip.io  |
+| Vinicius     | Pegoraro    | http://cdsw.18.205.6.38.nip.io    |
+| Diego        | Harsteln    | http://cdsw.3.218.164.41.nip.io   |
+| Fabio        | Coelho      | http://cdsw.100.27.44.38.nip.io   |
+| Hugo         | Rodrigues   | http://cdsw.3.218.240.251.nip.io  |
+| Robson       | Cavalcante  | http://cdsw.3.226.236.40.nip.io   |
+| Robson       | Takayanagui | http://cdsw.3.234.182.248.nip.io  |
+| Caio         | Canic       | http://cdsw.18.213.192.241.nip.io |
+| Daniel       | Reis        | http://cdsw.54.237.142.165.nip.io |
+| Ernando      | Silva       | http://cdsw.3.218.142.1.nip.io    |
+| Matheus      | Silva       | http://cdsw.3.219.219.139.nip.io  |
+| Rogerio      | Bernal      | http://cdsw.34.201.21.211.nip.io  |
+| Rogerio      | Rocha       | http://cdsw.107.23.76.42.nip.io   |
+| Caio         |             | http://cdsw.75.101.208.250.nip.io |
+| Gerdan       | Santos      | http://cdsw.3.219.219.184.nip.io  |
+| Jefferson    | Almeida     | http://cdsw.3.231.21.25.nip.io    |
+| Antonio      | Bonacin     | http://cdsw.3.91.174.132.nip.io   |
+| Felipe       | Tomazini    | http://cdsw.3.219.35.82.nip.io    |
+| Lucas        | Araujo      | http://cdsw.3.230.1.17.nip.io     |
+| Livre        | Livre       | http://cdsw.34.200.240.185.nip.io |
