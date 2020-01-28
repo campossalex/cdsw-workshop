@@ -33,3 +33,4 @@
 | Sofia     | Ortiz     | http://cdsw.18.215.187.210.nip.io |
 | Yenisei   | Ramírez   | http://cdsw.18.234.184.5.nip.io   |
 | Axel      | Ramirez   | http://cdsw.3.223.6.49.nip.io     |
+| Laura     | Cardona   | http://cdsw.35.172.234.192.nip.io |
