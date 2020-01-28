@@ -7,7 +7,7 @@
 | Cesar     | Bautista  | http://cdsw.18.207.105.212.nip.io |
 | Christian | Badilo    | http://cdsw.3.232.131.187.nip.io  |
 | Daniel    | Correa    | http://cdsw.18.234.98.178.nip.io  |
-| Dennis    | Torres    | http://cdsw.3.231.148.188.nip.io  |
+| Dennis    | Torres    | http://cdsw.3.223.129.234.nip.io  |
 | Dobeslao  | Hernandez | http://cdsw.3.83.79.150.nip.io    |
 | Domingo   | Lavin     | http://cdsw.3.234.183.214.nip.io  |
 | Edgar     | Espinoza  | http://cdsw.100.25.40.236.nip.io  |
@@ -27,7 +27,7 @@
 | Nancy     | Peña      | http://cdsw.3.234.229.244.nip.io  |
 | Norma     | Coronel   | http://cdsw.34.234.215.49.nip.io  |
 | Olguer    | Delgado   | http://cdsw.34.238.27.175.nip.io  |
-| Rolando   | Gonzalez  | http://cdsw.34.234.215.49.nip.io  |
+| Rolando   | Gonzalez  | http://cdsw.34.205.8.226.nip.io   |
 | Rubi      | Martinez  | http://cdsw.3.231.148.188.nip.io  |
 | Salvador  | Castillo  | http://cdsw.34.239.233.185.nip.io |
 | Sofia     | Ortiz     | http://cdsw.18.215.187.210.nip.io |
