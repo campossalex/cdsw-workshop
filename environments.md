@@ -34,3 +34,4 @@
 | Yenisei   | Ramírez   | http://cdsw.18.234.184.5.nip.io   |
 | Axel      | Ramirez   | http://cdsw.3.223.6.49.nip.io     |
 | Laura     | Cardona   | http://cdsw.35.172.234.192.nip.io |
+| Maximo    | Diaz      | http://cdsw.18.209.237.247.nip.io |
